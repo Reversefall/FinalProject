@@ -1,0 +1,153 @@
+// Header styles
+.main-header {
+  width: 100%;
+  background: $primary;
+  box-shadow: 0 2px 8px rgba(79, 70, 229, 0.08);
+  margin-bottom: 2rem;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+.main-logo {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+.main-menu {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.main-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: background 0.2s, color 0.2s;
+}
+.main-link:hover,
+.main-link.active {
+  background: $secondary;
+  color: #222;
+}
+.main-user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #fff;
+}
+// Enhanced login/register page styles for Laravel Vite
+$primary: #4f46e5; // Laravel purple
+$secondary: #f59e42; // Laravel orange
+$danger: #e3342f;
+$card-bg: #fff;
+$input-bg: #f8fafc;
+$input-border: #d1d5db;
+$shadow: 0 4px 24px rgba(79, 70, 229, 0.12);
+
+body {
+  background: linear-gradient(120deg, $primary 0%, $secondary 100%);
+  min-height: 100vh;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.login-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-card {
+  background: $card-bg;
+  border-radius: 16px;
+  box-shadow: $shadow;
+  padding: 2.5rem 2rem;
+  margin: 2rem 0;
+}
+
+.login-title {
+  text-align: center;
+  color: $primary;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.login-group {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+.login-input {
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  border: 1px solid $input-border;
+  background: $input-bg;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+.login-input:focus {
+  border-color: $primary;
+  outline: none;
+}
+
+.login-remember {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.login-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.login-btn {
+  background: $primary;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(79, 70, 229, 0.08);
+  transition: background 0.2s;
+}
+.login-btn:hover {
+  background: darken($primary, 10%);
+}
+
+.login-link {
+  color: $primary;
+  text-decoration: underline;
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-left: 1rem;
+}
