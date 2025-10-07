@@ -1,5 +1,6 @@
 # FinalProject
- 
+db của đồ án : https://dbdiagram.io/d/Group-Buying-Platform-new-db-68e4b418d2b621e4229746d
+
 1. Domain: eCommerce  - mua chung
 
 2. Lý do: thực tế phải mua với số lượng lớn à rủ người mua chung
